@@ -1,0 +1,132 @@
+.products {
+    background-color: white;
+    width: 100%;
+    height: 800px;
+}
+
+.centralFigure {
+    display: flex;
+}
+
+.background1 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 4vh;
+    margin-left: 18%;
+    width: 1073px;
+    height: 456px;
+    border-radius: 0px 15px 0px 0px;
+    background: var(--azul-mais-escuro, #202332);
+}
+
+.null {
+  position: absolute;
+  z-index: 3;
+  margin-left: 580px;
+  margin-top: 50px;
+}
+
+.hide {
+  position: absolute;
+  z-index: 1;
+  margin-left: 60%;
+  margin-top: 90px;
+}
+
+.hightlightProducs {
+    position: absolute;
+    color: antiquewhite;
+    z-index: 3;
+    margin-top: 30vh;
+    margin-left: 36%;
+    font-size: 40px;
+    display: flex;
+    width: 600px;
+    height: 25px;
+    flex-direction: column;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 750px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+
+
+.cardContainer {
+
+  display:flex;
+}
+
+@media screen and (max-width: 1280px) {
+  .background1 {
+    left:0px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .hightlightProducs {
+    margin-left: 250px;
+    margin-top: 300px;
+  }
+
+  .null {
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+
+  .hide {
+    margin-left: 740px;
+    z-index: 2;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .background1 {
+    left:0px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .hightlightProducs {
+    margin-left: 350px;
+    margin-top: 300px;
+    font-size: 50px;
+  }
+
+  .null {
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+
+  .hide {
+    margin-left: 740px;
+    z-index: 2;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .background1 {
+    left:0px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .hightlightProducs {
+    margin-left: 50px;
+    margin-top: 300px;
+    font-size: 50px;
+  }
+
+  .null {
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+
+  .hide {
+    margin-left: 740px;
+    z-index: 2;
+    margin-top: 0px;
+  }
+}

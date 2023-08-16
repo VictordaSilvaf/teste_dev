@@ -1,0 +1,222 @@
+.footer {
+    position:absolute;
+    z-index: 4;
+    background-color: #202332;
+    width: 100%;
+    height: 273px;
+    margin-top: 1778px;
+    margin-bottom: 20vh;
+}
+
+.logo {
+    width: 145px;
+    height: 51px;
+    margin-left: 22vw;
+    margin-top: 35px;
+}
+
+.footerText {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    width: 360px;
+    height: 45px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 237.5% */
+    letter-spacing: -0.8px;
+    margin-top: 32px;
+    margin-left: 42.5vh;
+    margin-bottom: 20vh;
+}
+
+.icons {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    width: 650px;
+    height: 2px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    margin-left: 1100px;
+    margin-bottom: 30px;
+}
+
+.iconLayer {
+    margin-left: 440px;
+    width: 300px;
+    margin-top: 2vh;
+    
+}
+
+
+
+.logoWhatsapp {
+    width: 22px;
+    height: 22px;
+    margin-right: 1vw;
+}
+
+.logoInstagram {
+    width: 22px;
+    height: 22px;
+    margin-right: 1vw;
+}
+
+
+.logoFacebook {
+    width: 22px;
+    height: 22px;
+    margin-right: 1vw;
+}
+
+.line {
+    background-color: #FBAF17;
+    width: 1140px;
+    height: 1px;
+    margin-left: 22vw;
+    margin-top: 100px;
+}
+
+.bottomText {
+    position: absolute;
+    z-index: 4;
+    color: #FFF;
+    margin-left: 22vw;
+    font-size: 20px;
+    margin-top: 2vh;
+    
+}
+
+.iconText {
+    margin-left: 18vw;
+    font-size: 15px;
+}
+
+
+.developerText {
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    text-align: right; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    margin-left: 63.2vw;
+    margin-top: 2.3vh;
+}
+
+.bubbleFooter {
+    position: absolute;
+    z-index: 1;
+    width: 190px;
+    height: 190px;
+    margin-left: 90vw;
+    overflow: hidden;
+    bottom: 30px;
+    
+}
+
+
+@media screen and (max-width: 1280px) {
+
+
+    .footer {
+        position:absolute;
+        z-index: 4;
+        background-color: #202332;
+        width: 1280px;
+        height: 273px;
+        left: 0px;
+        margin-top: 2000px;
+        margin-left: 0px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .footerText {
+        margin-left: 40px;
+        font-size: 18px;
+        
+    }
+
+
+    .line {
+        margin-left: 40px;
+    }
+
+    .bubbleFooter {
+        margin-left: 800px;
+        margin-bottom: 70px;
+        height: 150px;
+    }
+
+    .bottomText {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .developerText {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+
+    .footer {
+        position:absolute;
+        z-index: 4;
+        background-color: #202332;
+        width: 1280px;
+        height: 273px;
+        left: 0px;
+        margin-top: 7000px;
+        margin-left: 0px;
+    }
+›
+    .logo {
+        margin-left: 40px;
+    }
+
+    .footerText {
+        margin-left: 40px;
+        font-size: 18px;
+        
+    }
+
+
+    .line {
+        margin-left: 40px;
+    }
+
+    .bubbleFooter {
+        margin-left: 800px;
+        margin-bottom: 70px;
+        height: 150px;
+    }
+
+    .bottomText {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .developerText {
+        margin-top: 80px;
+        font-size: 20px;
+    }
+
+}

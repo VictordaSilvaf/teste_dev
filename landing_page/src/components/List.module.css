@@ -1,0 +1,151 @@
+.blackBar {
+    position: absolute;
+    z-index: 6;
+    width: 217px;
+    height: 19px;
+    border-radius: 15px;
+    background: var(--azul-mais-escuro, #202332);
+    margin-top: 205px;
+    margin-right: 100px;
+    top: 0px;
+    left: 30px;
+    
+}
+
+.productCard {
+    position: relative;
+    display: flex;
+    top: 400px;
+    margin-top: 0.1vh;
+    height: 450px;
+    width: 263px;
+    left: 38rem;
+    background-color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
+.imageCard {
+    position: absolute;
+    z-index: 4;
+}
+
+.cardName {
+    position: absolute;
+    z-index: 4;
+    margin-top: 250px;
+    bottom: 150px;
+    margin-left: 20%;
+    margin-right:15%;
+    font-size: 23px;
+    text-align: center;
+    
+}
+
+.fullPrice {
+    position: absolute;
+    z-index: 4;
+    margin-top: 320px;
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.discount {
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+    margin-top: 320px;
+    margin-left: 150px;
+    width: 110px;
+    height: 30px;
+    border-radius: 15px 0px 0px 15px;
+    background: var(--amarelo, #FBAF17);
+    font-size: 20px;
+}
+
+.categoriesTag {
+    position: absolute;
+    z-index: 4;
+    background: #E0E0E0;
+    border-radius: 0 15px 15px 0;
+    margin-top: 20px;
+}
+
+.creditOption {
+    position: absolute;
+    z-index: 4;
+    margin-top: 400px;
+    margin-left: 45px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    grid-row-gap: 0px;
+}
+
+@media screen and (max-width: 1280px) {
+    .cardContainer {
+        grid-template-columns: repeat(4, 1fr);
+        left: 20px;
+        top: 600px;
+    }
+
+    .productCard {
+       left: 70px;
+       margin-top: 30px;
+    }
+  }
+
+@media screen and (max-width: 1280px) {
+    .cardContainer {
+        grid-template-columns: repeat(4, 1fr);
+        left: 20px;
+        top: 600px;
+        font-size: 20px;
+        height: 400px;
+    }
+
+    .productCard {
+       left: 70px;
+       margin-top: 30px;
+    }
+
+    .categoriesTag {
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .cardContainer {
+        grid-template-columns: repeat(4, 1fr);
+        left: 20px;
+        top: 600px;
+    }
+
+    .productCard {
+       left: 70px;
+       margin-top: 30px;
+    }
+  }
+
+@media screen and (max-width: 440px) {
+    .cardContainer {
+        grid-template-columns: repeat(1, 1fr);
+        left: 20px;
+        top: 600px;
+        font-size: 20px;
+        height: 400px;
+    }
+
+    .productCard {
+       left: 70px;
+       margin-top: 30px;
+    }
+
+    .categoriesTag {
+        font-size: 20px;
+    }
+  }

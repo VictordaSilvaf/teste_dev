@@ -1,0 +1,275 @@
+section {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.NavBarContainer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10vh;
+}
+
+
+.navicon {
+    display: flex;
+    background-color: #FBAF17;
+    justify-content: flex-start;
+    border-radius: 150px 0px 0px 150px;
+    height: 10vh;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    width: 65%;
+    
+  
+
+}
+
+.buttonText {
+    align-items: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.54px;
+}
+
+.contactButton {
+    width: 182px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #203220;
+}
+
+
+
+.bubbles {
+    width: 18%;
+    height: 10vh;
+    margin-left: 0px;
+    margin-right: 240px;
+    margin-top: 0px;
+    opacity: 0.8;
+}
+
+.shopLogo {
+    width: 18%;
+    height: 6vh;
+    margin-right: 12vw;
+}
+
+.ButtonText {
+    color: white
+}
+
+.dropbox:hover .dropmenu {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dropmenu {
+   display: flex;
+   flex-direction: column;
+   display: none;
+}
+
+nav  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: left;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 2vh;
+    margin-left: 24%;
+  }
+
+nav li {
+    color: #203220;
+    text-decoration: none;
+    padding: 15px;
+    list-style: none;
+}
+
+nav li text:hover {
+   border-bottom: 2px solid #fff;
+}
+
+nav {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 1280px) {
+    .NavBarContainer {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+            height: 80px;
+        }
+        
+       .nav {
+          width: 1280px;
+       }
+
+       .navicon {
+          border-radius: 0px;
+          margin-left: 0px;
+       }
+
+       .bubbles {
+          margin-right: 700px;
+       }
+
+
+    }  
+    
+    @media screen and (max-width: 1024px) {
+        .NavBarContainer {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+        }
+        
+       .nav {
+          width: 100%;
+          margin-left: 30px;
+          font-size: 30px;
+          right: 200px;
+       }
+
+       .navicon {
+          border-radius: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          width: 100%;
+       }
+
+       .bubbles {
+          margin-right: 700px;
+       }
+
+       .contactButton {
+        width: 200px;
+        height: 60px;
+       }
+
+       .ButtonText {
+        font-size: 40px;
+       }
+
+       .buttonText {
+        font-size: 30px;
+       }
+
+
+    }
+    
+   
+    
+@media screen and (max-width: 768px) {
+        .NavBarContainer {
+            background-color: white;
+            display: block;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-end;
+            width: 100%;
+            height: 80px;
+        }
+        
+       .nav {
+          width: 100%;
+          margin-left: 30px;
+          font-size: 30px;
+          right: 200px;
+       }
+
+       .navicon {
+          border-radius: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          width: 50%;
+       }
+
+       .bubbles {
+          margin-right: 700px;
+       }
+
+       .contactButton {
+        width: 200px;
+        height: 60px;
+       }
+
+       .ButtonText {
+        font-size: 40px;
+       }
+
+       .buttonText {
+        font-size: 10px;
+       }
+
+}
+
+@media screen and (max-width: 480px) {
+    .NavBarContainer {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+        width: 100%;
+        height: 80px;
+    }
+    
+   .nav {
+      width: 80%;
+      margin-left: 30px;
+      font-size: 30px;
+      right: 200px;
+   }
+
+   .navicon {
+      border-radius: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%;
+   }
+
+   .bubbles {
+      margin-right: 700px;
+   }
+
+   .contactButton {
+    width: 200px;
+    height: 60px;
+   }
+
+   .ButtonText {
+    font-size: 40px;
+   }
+
+   .buttonText {
+    font-size: 30px;
+   }
+
+   .shopLogo {
+     left: 0px;
+     width: 10px;
+     height: 51.006px;
+     flex-shrink: 0;
+     margin-right: 0px;
+   }
+
+}

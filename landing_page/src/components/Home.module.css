@@ -1,0 +1,402 @@
+
+
+.home {
+
+  width: 100%;
+  height: 72%;
+  background: url("../assets/Rectangle29.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  margin-top: 0vh;
+  margin-right: 20vw;
+}
+
+.homeText {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    margin-left: 17vw;
+    align-items: flex-start;
+    position: absolute;
+    padding: 14px 26px 14px 0;
+    z-index: 4;
+    top: 150px;
+}
+
+
+
+.customH6 {
+    justify-content: flex-start;
+    width: 555px;
+    height: 114px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 450px;
+    line-height: 38px; 
+}
+
+
+.button1 {
+    background-color: #FBAF17;
+    border-radius: 15px;
+    width: 68%;
+    height: 5.8vh;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--azul-mais-escuro, #202332)
+}
+
+.button2 {
+    width: 68%;
+    height: 63px;
+    border-radius: 20px;
+    border: 1px solid var(--white, #FFF);
+    background: none;
+    color: #FFF;
+    margin-bottom: 3vh;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.rollText {
+    margin-left: 15px;
+    font-size: 2.2rem;
+}
+
+.sectionRoll {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.lightSector {
+    width: 300px;
+    height: 282px;
+    background-image: url("../assets/trueLight.png");
+    top: 2.2vh;
+    left: 48vw;
+    position: absolute;
+    margin-top: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-color:  rgba(0, 0, 0, 0);
+    z-index: 4;
+}
+
+.elipse {
+    position: absolute;
+    margin-top: 210px;
+    z-index: 5;
+    top: 20.2vh;
+    left: 53.6vw;
+    width: 70px;
+}
+
+.whiteCircle {
+    position: absolute;
+    margin-bottom: 180px;
+    margin-top: 215px;
+    top: 17.8vh;
+    left: 77.5rem;
+    z-index: 5;
+    width: 60px;
+    height: 10vh;
+}
+
+
+.imageContainer {
+    position: relative;
+  }
+  
+.image2 {
+    position: absolute;
+    z-index: 6; 
+    left: 54.2vw;
+    margin-top: 226px;
+    top: 20.4vh;
+    width: 40px;
+  }
+
+.image3 {
+    position: absolute;
+    width: 250px;
+    height: 252px;
+    z-index: 1;
+    top: 230px;
+    left: 103rem;  
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.image4 {
+  width: 600px;
+  height: 850px;
+  position: absolute;
+  bottom: -685px; 
+  top: 0.2vh;
+  left: 1600px;
+  transform: translateX(-50%); 
+  z-index: 2;
+}
+
+.starContainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 287px;
+  height: 83px;
+  z-index: 4;
+  background-color: #FFF;
+  top: 62vh;
+  left: 93rem;
+  border-radius: 15px;
+
+}
+
+.star {
+    margin-left: 2.5rem;
+}
+
+.bottonCircle {
+    position: absolute;
+    z-index: 1;
+    top: 50vh;
+    left: 80rem;
+}
+
+.customH1 {
+    font-size: 70px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .home {
+
+        width: 1280px;
+        height: 800px;
+        background: url("../assets/Rectangle29.jpg");
+        background-size: 120%;
+        background-repeat: no-repeat;
+
+        display: flex;
+      }
+
+      .tag {
+        right: 300px;
+      }
+
+      .homeText {
+        margin-left: 40px;
+        top: 180px;
+        font-size: 25px;
+        width: 500px;
+      }
+
+      .lightSector {
+
+        top: 70px;
+        left: 45%;
+        position: absolute;
+
+      }
+
+      .elipse {
+        left: 675px;
+        top: 140px;
+      }
+
+      .image2{
+        left: 690px;
+        top: 140px;
+      }
+
+      .image3 {
+        left: 900px
+      }
+
+      .image4 {
+        margin-right: 70%;
+        width: 420px;
+        height: 520px;
+        left: 950px;
+        top: 125px;
+      }
+
+    .whiteCircle {
+        left: 680px;
+        top: 140px;
+    }
+
+    .bottonCircle {
+        left: 700px;
+        top: 380px;
+    }
+
+    .sectionRoll {
+        font-size: 35px;
+    }
+
+    .starContainer {
+        top: 580px;
+        left: 1000px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+
+        width: 1280px;
+        height: 800px;
+        background: url("../assets/Rectangle29.jpg");
+        background-size: 120%;
+        background-repeat: no-repeat;
+
+        display: flex;
+      }
+
+      .tag {
+        right: 300px;
+      }
+
+      .homeText {
+        margin-left: 40px;
+        top: 180px;
+        font-size: 25px;
+        width: 500px;
+      }
+
+      .lightSector {
+
+        top: 70px;
+        left: 75%;
+        position: absolute;
+
+      }
+
+      .elipse {
+        left: 675px;
+        top: 140px;
+      }
+
+      .image2{
+        left: 690px;
+        top: 140px;
+      }
+
+      .image3 {
+        left: 900px
+      }
+
+      .image4 {
+        margin-right: 70%;
+        width: 420px;
+        height: 520px;
+        left: 950px;
+        top: 125px;
+      }
+
+    .whiteCircle {
+        left: 680px;
+        top: 140px;
+    }
+
+    .bottonCircle {
+        left: 700px;
+        top: 380px;
+    }
+
+    .sectionRoll {
+        font-size: 35px;
+    }
+
+    .starContainer {
+        top: 580px;
+        left: 1000px;
+
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .home {
+
+        width: 1280px;
+        height: 900px;
+        background: url("../assets/Rectangle29.jpg");
+        background-size: 120%;
+        background-repeat: no-repeat;
+
+        display: flex;
+      }
+
+      .tag {
+        right: 300px;
+      }
+
+      .homeText {
+        margin-left: 20px;
+        top: 180px;
+        font-size: 25px;
+        width: 500px;
+      }
+
+      .lightSector {
+
+        top: 370px;
+        left: 20%;
+        position: absolute;
+
+      }
+
+      .elipse {
+        left: 185px;
+        top: 470px;
+      }
+
+      .image2{
+        left: 200px;
+        top: 470px;
+      }
+
+      .image3 {
+        left: 900px
+      }
+
+      .image4 {
+        margin-right: 70%;
+        width: 420px;
+        height: 380px;
+        left: 200px;
+        top: 520px;
+      }
+
+    .whiteCircle {
+        left: 190px;
+        top: 470px;
+    }
+
+    .bottonCircle {
+        left: 700px;
+        top: 380px;
+    }
+
+    .sectionRoll {
+        font-size: 35px;
+    }
+
+    .starContainer {
+        top: 580px;
+        left: 1000px;
+
+    }
+
+}
